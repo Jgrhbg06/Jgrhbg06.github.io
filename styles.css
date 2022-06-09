@@ -2,9 +2,7 @@ body {
   background-color: coral;
 }
 
-p.italic {
- font-style: italic;
-}
+font-family:blaka, dancing script, lobster;
 
 .content {
   with: 500px;
