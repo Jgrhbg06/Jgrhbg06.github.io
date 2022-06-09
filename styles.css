@@ -1,13 +1,14 @@
 body {
   background-color: purple;
-  font-family:blaka, dancing script, lobster;
+
 }
 
-font-family:blaka, dancing script, lobster;
+.first {
+  font-style:i talic;
 
 .content {
   with: 500px;
   margin: auto;
   padding: 25px 50px;
-  border: 10px solid green;
+  border: 5px solid purple;
 }
