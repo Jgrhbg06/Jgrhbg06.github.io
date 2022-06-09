@@ -1,6 +1,14 @@
+body {
+  background-color: coral;
+}
+
+p1 {
+ font-family: cursive;
+}
+
 .content {
   with: 500px;
   margin: auto;
   padding: 25px 50px;
-  border: thin solid black;
+  border: 10px solid green;
 }
