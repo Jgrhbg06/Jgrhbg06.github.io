@@ -1,0 +1,123 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Jonas Geßmann
+# title: Schüler
+email: jonas.rheinberg@gamil.com
+website: https://jgrhbg06.github.io/
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+github_username:  Jgrhbg06
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: _jgjonas_
+# linkedin_username: jameswgrant
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+about_title: Persönliches
+about_profile_image: images/Jonas.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, mein Name ist Jonas und ich bin 15 Jahre alt. Ich gehe auf das Amplonius Gymnasium in Rheinberg. Zudem treffe ich mich gerne mit Freunden.
+
+  Ich bin am besten in: Ski fahren und Quatsch machen
+
+content:
+  - title: Projekte # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        # title: Super awesome project
+        link: github.com/Jgrhbg06
+        # link_text: Project Website
+        additional_links:
+          # - title:  sproogen/modern-resume-theme
+          #   icon: fab fa-github
+          #   url: github.com/sproogen/modern-resume-theme
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Das ist vielleicht eines von den besten Praktikas überhaupt, und wenn du nicht zustimmst liegst du wahrscheinlich falsch.
+        description: | # this will include new lines to allow paragraphs
+          Ich habe dieses Praktikum gestartet, weil ich denke das ich dort sehr viel neues lernen kann und viel Spaß haben werde.
+
+  - title: Arbeitserfahrungen # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Invision
+        link: www.ivx.com
+        # link_text: https://www.ivx.com/
+        sub_title: Praktikant
+        caption: 09.-17.Juli 2022
+        # quote: >
+        # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            Helfen Contact Centern, ihre Mitarbeiter und Kunden glücklich zu machen. Schaffen Mehrwert für Kunden, indem einfache Lösungen für komplexe Probleme entwickeln werden. Unsere Softwareprodukte optimieren den Einsatz und die Weiterbildung des Personals.
+
+  - title: Bildung # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Amplonius Gymnasium
+        caption: 2017- 2022
+        sub_title: Schüler
+        # quote: >
+        #  Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        description: | # this will include new lines to allow paragraphs
+          Während meiner Schulzeit am Amplonius Gymnasium bin ich hoft Klaasensprecher und auch Schulsprecher geworden. Zudem war habe ich mich sozial engagiert.
+
+          Ich habe viel Zeit damit verbracht mich mit Freunden zu treffen.
+
+  - title: Weiteres über mich
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Neben meinen Interessen an Netzwerken und Softwaretechnik sind einige meiner anderen Interessen und Hobbys
+      - Ski fahren
+      - Gaming
+      - Fahrrad fahren
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
