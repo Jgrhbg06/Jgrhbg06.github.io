@@ -1,3 +1,11 @@
 body {
   font-family: 'Fresca', sans-serif;
 }
+
+img {
+  width: 150px;
+  -moz-box-shadow: 10px 10px 5px #ccc;
+  -webkit-box-shadow: 10px 10px 5px #ccc;
+  box-shadow: 5px 5px 2px ghostwhite, 10px 10px 5px deepskyblue;
+  -khtml-box-shadow: 10px 10px 5px #ccc;
+}
