@@ -6,7 +6,20 @@
 
 .profile-img {
   border-radius: 45px;
+  width: 200px;
+  height: 200px;
+
+  transition: all 2s;
+  // ss-webkit-transition: all 1s;
 }
+
+.profile-img:hover {
+  border-radius: 125px;
+  width: 250px;
+  height: 250px;
+  transform: rotate(3600deg);
+}
+
 a:hover {
   color: #0060E0;
 }
