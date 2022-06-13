@@ -10,9 +10,8 @@ name: Jonas Geßmann
 # title: Schüler
 email: jonas.rheinberg@gamil.com
 website: https://jgrhbg06.github.io/
-
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
 # twitter_username: facespics
