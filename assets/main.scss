@@ -2,24 +2,72 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 @import 'modern-resume-theme';
 
 .profile-img {
-  border-radius: 45px;
   width: 200px;
   height: 200px;
-
+  border-radius: 40px;
   transition: all 2s;
-  // ss-webkit-transition: all 1s;
+  border: none;
+  position: relative;
 }
 
-.profile-img:hover {
-  border-radius: 125px;
-  width: 250px;
-  height: 250px;
-  transform: rotate(360deg);
+.profile-img:after {
+  content: "";
+  position: absolute;
+  display: block;
+  background: none;
+  border-radius: inherit;
+  border: 4px solid #CA5244;
+  left: 15px;
+  top: 15px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
 }
+
+// .profile-img:hover {
+//   border-radius: 125px;
+//   width: 250px;
+//   height: 250px;
+//   transform: rotate(360deg);
+// }
 
 a:hover {
   color: #0060E0;
 }
+
+h1, h2, h3 {
+  font-family: 'Roboto';
+  color: #4F6898;
+}
+
+h3 {
+  width: 100%;
+}
+
+h3:before {
+  content: "";
+  background-color: #CA5244;
+  position: absolute;
+  width: 5px;
+  height: 25px;
+//  border: 3px solid #CA5244;
+  margin-right: 5px;
+
+}
+
+h3{
+font-style: normal;
+font-weight: 600;
+font-size: 25px;
+line-height: 38px;
+// border: 7px solid #CA5244;
+}
+
+// body{
+//  color: #4F6898;
+//  }
